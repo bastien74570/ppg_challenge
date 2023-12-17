@@ -1,0 +1,9 @@
+pandas
+matplotlib
+scikit-learn
+xgboost
+PyWavelets
+tqdm
+torch
+torchvision
+torchsummary
