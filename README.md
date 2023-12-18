@@ -3,7 +3,7 @@
 
 This repository was create for the PPG challenge. To use this code make sure you create a data folder and put inside:train.csv, train_labels.csv and test.csv.
  
-h1>Output</h1>
+<h1>Output</h1>
 The output folder contains the prediction for the test set.
 
 <h1>Pipeline</h1>
