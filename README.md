@@ -27,6 +27,7 @@ You will find 5 notebooks in the folder notebooks, you should be able to run all
 
 <h1> Features </h1>
 Here is the list of category of features I investigated:
+
 - features: use the crafted features as it is.
 - ppg: compute mean and std over the full signal.
 - peak: use peak detection and compute multiple features (number of peaks in signal, distance peak to peak (mean,std), peak prominence (mean,std) and peak width (mean,std)).
