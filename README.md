@@ -3,6 +3,9 @@
 
 This repository was create for the PPG challenge. To use this code make sure you create a data folder and put inside:train.csv, train_labels.csv and test.csv.
  
+h1>Output</h1>
+The output folder contains the prediction for the test set.
+
 <h1>Pipeline</h1>
 
 To analyse the data, I worked on two type of pipeline: 
@@ -35,7 +38,9 @@ Here is the list of category of features I investigated:
 - wavelet: mean and std over time for  frequencies between [0-5Hz]. Here I had an issue,it was too computationally expensive and I had to downsample the signal. 
 
 <h1> Scripts </h1>
-If you wish to reproduce the results I send, you can simply run run_script.py to get the predictions. Due to lack of time, the deep learning approach didnt bring correct results. The preferred features for the DL approach are wavelets which were two computationaly expensive.  
+If you wish to reproduce the results I send, you can simply run run_script.py to get the predictions. 
+Due to lack of time, the deep learning approach didnt bring correct results (r2: 0.5-0.6)
+The preferred features for the DL approach are wavelets which were too computationaly expensive.  
 
 
 
